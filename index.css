@@ -887,7 +887,7 @@ div.user[data-vip="diamond"]::after {
 #addr {
 	position: relative;
 	display: block;
-	width: 300px;
+	width: 360px;
 	height: 20px;
 	margin: 20px auto;
 	padding: 10px 20px;
@@ -2531,6 +2531,42 @@ div.user[data-vip="diamond"]::after {
 	#weather {
 		height: 430px;
 	}
+
+	#bitcoin {
+		height: 550px;
+	}
+}
+
+@media all and (max-width: 400px) {
+	#bitcoin {
+		height: 520px;
+	}
+}
+
+@media all and (max-width: 447px) {
+	#menu>div {
+		position: relative;
+		display: block;
+		width: calc(100% - 2px);
+		height: 78px;
+		margin: 10px 0px;
+	}
+
+	#menu>div>img {
+		top: 15px;
+		left: 15px;
+		width: 48px;
+		height: 48px;
+	}
+
+	#menu>div>div {
+		top: 15px;
+		left: 73px;
+		width: 100px;
+		height: 48px;
+		text-align: start;
+		line-height: 48px;
+	}
 }
 
 @media all and (max-width: 450px) {
@@ -2541,6 +2577,11 @@ div.user[data-vip="diamond"]::after {
 }
 
 @media all and (max-width: 480px) {
+	#addr {
+		width: calc(100% - 40px);
+		margin: 20px 0px;
+	}
+
 	#yt-search {
 		width: calc(100% - 20px);
 		margin: 20px 10px;
