@@ -3,7 +3,7 @@ body {
 	background: #202020;
 }
 
-option, optgroup, #navigation-bar {
+option, optgroup, #navigation-bar, #nwidget {
 	background: #404040;
 }
 
@@ -16,7 +16,7 @@ option, optgroup, #navigation-bar {
 	background: #404040;
 }
 
-#version, #nav-bar>button, #game-category>button, #item-category>button, #bio, #ac-bio {
+#version, #nav-bar>button, #game-category>button, #item-category>button {
 	color: #d0d0d0;
 }
 
@@ -24,8 +24,34 @@ option, optgroup, #navigation-bar {
 	color: #ffffff;
 }
 
-#hamb>span, #hamb>span::before, #hamb>span::after {
+#hamb, #hamb::before, #hamb::after {
 	background: #ffffff;
+}
+
+#accn-btn {
+	filter: brightness(80%);
+	background-image: url("res/login-w.svg");
+}
+
+#accn-btn[data-ac] {
+	background-image: url("res/account-w.svg");
+}
+
+#nmsg-btn {
+	filter: brightness(80%);
+	background-image: url("res/bell-w.svg");
+}
+
+#accn-btn:hover, #nmsg-btn:hover {
+	filter: brightness(85%);
+}
+
+#accn-btn:active, #nmsg-btn:active {
+	filter: brightness(90%);
+}
+
+#accn-btn[data-current], #nmsg-btn[data-current] {
+	filter: none;
 }
 
 #game-search>button, #item-search>button, #yt-search>button, #search>button {
@@ -37,11 +63,11 @@ option, optgroup, #navigation-bar {
 	background-color: #404040;
 }
 
-#yt-results>div>div>.desc, #headlines>div>div>.desc {
+#yt-results>div>div>.desc, #headlines>div>div>.desc, #nwidget>div>span, #ac-friends>div>span, #bio, #ac-bio {
 	color: #c0c0c0;
 }
 
-#yt-results>div>div>.time,#headlines>div>div>.time {
+#yt-results>div>div>.time,#headlines>div>div>.time, #footer, #game-disclaimer, #item-disclaimer, #idisc {
 	color: #a0a0a0;
 }
 
@@ -77,7 +103,7 @@ option, optgroup, #navigation-bar {
 	background-image: url("res/new-chat-w.svg");
 }
 
-#history>div>button {
+#history>div>button, #messages>div>button.delete, #comments>div>button.delete {
 	background-image: url("res/delete-w.svg");
 }
 
@@ -109,19 +135,19 @@ option, optgroup, #navigation-bar {
 	background-color: #808080;
 }
 
-#account-settings .tick {
+#account-settings button.tick, #messages>div button.tick, #comments>div button.tick {
 	background-image: url("res/tick-w.svg");
 }
 
-#account-settings .cross {
+#account-settings button.cross, #messages>div button.cross, #comments>div button.cross {
 	background-image: url("res/close-w.svg");
 }
 
-#account-settings .message {
+#account-settings button.message {
 	background-image: url("res/new-chat-w.svg");
 }
 
-#ac-edit, #ac-bio-edit, #ac-name-edit, #ac-email-edit {
+#ac-edit, #ac-bio-edit, #ac-name-edit, #ac-email-edit, #messages>div>button.edit, #comments>div>button.edit {
 	background-image: url("res/edit-w.svg");
 }
 
