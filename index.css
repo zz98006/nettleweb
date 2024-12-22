@@ -654,7 +654,7 @@ div.user[data-vip="diamond"]::after {
 	margin: 15px 0px;
 }
 
-#weather>embed, #bitcoin>embed, #calc-container>embed, #webemu-container>embed, #console-container>embed, #test-frame>embed {
+#weather>embed, #bitcoin>embed, #calc-container>embed, #webemu-container>embed, #console-container>embed, #test-frame>embed, body>embed {
 	position: absolute;
 	display: block;
 	width: 100%;
@@ -1616,15 +1616,22 @@ div.user[data-vip="diamond"]::after {
 	background-position: center;
 }
 
+#upload-info {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: fit-content;
+	margin: 15px 0px;
+}
+
 #upload-test {
 	position: relative;
 	display: none;
-	width: calc(100% - 20px);
+	width: 100%;
 	height: fit-content;
-	margin: 15px 0px;
+	margin: 20px -10px;
 	padding: 10px;
-	border: 1px solid #808080;
-	border-radius: 25px;
+	outline: 1px solid #808080;
 }
 
 #test-frame {
@@ -2178,7 +2185,7 @@ div.user[data-vip="diamond"]::after {
 	margin: 5px;
 }
 
-#settings-page>div, #uploadgames-page>div, #gamemu-options>div, #editor>div, #a-product>div, #payi {
+#settings-page>div, #upload-info>div, #gamemu-options>div, #editor>div, #a-product>div, #payi {
 	position: relative;
 	display: block;
 	width: fit-content;
@@ -2186,7 +2193,7 @@ div.user[data-vip="diamond"]::after {
 	margin: 10px 0px;
 }
 
-#settings-page>div>label, #uploadgames-page>div>label, #gamemu-options>div>label, #editor>div>label, #a-product>label, #payi>label {
+#settings-page>div>label, #upload-info>div>label, #gamemu-options>div>label, #editor>div>label, #a-product>label, #payi>label {
 	position: relative;
 	display: inline-block;
 	width: fit-content;
@@ -2198,7 +2205,7 @@ div.user[data-vip="diamond"]::after {
 	vertical-align: middle;
 }
 
-#uploadgames-page>div>textarea, #editor>div>textarea, #a-product>div>textarea, #payi>textarea, #add-comm>textarea {
+#upload-info>div>textarea, #editor>div>textarea, #a-product>div>textarea, #payi>textarea, #add-comm>textarea {
 	position: relative;
 	display: block;
 	width: calc(100% - 22px);
@@ -2213,7 +2220,7 @@ div.user[data-vip="diamond"]::after {
 	letter-spacing: 0px;
 }
 
-#settings-page>div>input[type="text"], #settings-page>div>select, #uploadgames-page>div>input[type="text"], #uploadgames-page>div>select, #gamemu-options>div>select, #editor>div>input[type="text"], #a-product>div>input[type="text"], #a-product>div>input[type="number"], #payi>select {
+#settings-page>div>input[type="text"], #settings-page>div>select, #upload-info>div>input[type="text"], #upload-info>div>select, #gamemu-options>div>select, #editor>div>input[type="text"], #a-product>div>input[type="text"], #a-product>div>input[type="number"], #payi>select {
 	position: relative;
 	display: inline-block;
 	width: fit-content;
@@ -2227,7 +2234,7 @@ div.user[data-vip="diamond"]::after {
 	vertical-align: middle;
 }
 
-#settings-page>div>input[type="text"]:focus, #settings-page>div>select:focus, #uploadgames-page>div>input[type="text"]:focus, #uploadgames-page>div>select:focus, #uploadgames-page>div>textarea:focus, #gamemu-options>div>select:focus, #editor>div>input[type="text"]:focus, #editor>div>textarea:focus, #a-product>div>input[type="text"]:focus, #a-product>div>input[type="number"]:focus, #a-product>div>textarea:focus, #payi>select:focus, #payi>textarea:focus, #add-comm>textarea:focus {
+#settings-page>div>input[type="text"]:focus, #settings-page>div>select:focus, #upload-info>div>input[type="text"]:focus, #upload-info>div>select:focus, #upload-info>div>textarea:focus, #gamemu-options>div>select:focus, #editor>div>input[type="text"]:focus, #editor>div>textarea:focus, #a-product>div>input[type="text"]:focus, #a-product>div>input[type="number"]:focus, #a-product>div>textarea:focus, #payi>select:focus, #payi>textarea:focus, #add-comm>textarea:focus {
 	border-color: #808080;
 }
 
