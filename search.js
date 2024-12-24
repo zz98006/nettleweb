@@ -22,7 +22,7 @@
 
 	win.stop();
 	win.focus();
-	doc.title = q + " - NettleWeb Search";
+	doc.title = q + " - Search";
 	body.innerHTML = "<div class=\"gcse-search\"></div>";
 
 	Object.defineProperty(win, "history", {
