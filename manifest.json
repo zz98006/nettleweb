@@ -1,8 +1,8 @@
 {
-	"id": "nettleweb",
-	"name": "NettleWeb",
+	"id": "ka",
+	"name": "Kaiden's Arcade",
 	"version": "6.4.2",
-	"short_name": "NettleWeb",
+	"short_name": "KA",
 	"categories": ["games", "social", "entertainment"],
 	"description": "Play free online games, watch exclusive videos, and interact with a community that values your privacy. Explore our collection of HTML5, Flash, and classic games, engage in live chat, and enjoy a social experience without the snooping.",
 	"scope": "/",
